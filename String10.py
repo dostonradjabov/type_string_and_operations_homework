@@ -7,4 +7,7 @@ def main(x,y):
     Returns:
         str: return answer.
     """
-    return 
+    x = int(input(4))
+    y = int(input(6))
+    return (x+y)*2
+print(main(4,6))
